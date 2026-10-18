@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Учебное портфолио: проекты, навыки и контакты.">
+  <title>Портфолио · sashacracer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="brand" href="#top">SC<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#skills">Навыки</a>
+      </div>
+    </nav>
+    <div class="hero-grid" id="top">
+      <div>
+        <p class="eyebrow">СТУДЕНТ · РАЗРАБОТЧИК</p>
+        <h1>Создаю понятные<br><em>цифровые продукты.</em></h1>
+        <p class="lead">Учебное портфолио о разработке, Git и GitHub. Здесь собраны проекты, технологии и результаты лабораторной работы № 5.</p>
+        <a class="button" href="#projects">Смотреть проекты <span>↘</span></a>
+      </div>
+      <div class="portrait" aria-label="Абстрактная иллюстрация профиля">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="monogram">SC</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section split">
+      <p class="section-number">01 / ОБО МНЕ</p>
+      <div>
+        <h2>Люблю превращать задачу<br>в работающий результат.</h2>
+        <p>Изучаю программирование, командную разработку и автоматизацию. В работе ценю ясную структуру, воспроизводимость и аккуратное оформление.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="section-number">02 / ПРОЕКТЫ</p>
+      <div class="cards">
+        <article class="card accent"><span class="tag">GitHub Pages</span><h3>Персональное портфолио</h3><p>Статический адаптивный сайт, автоматически проверяемый GitHub Actions.</p><span class="card-index">01</span></article>
+        <article class="card"><span class="tag">.NET CLI</span><h3>Набор консольных утилит</h3><p>Приложения, библиотеки, тесты, NuGet-пакеты и минимальный Web API.</p><span class="card-index">02</span></article>
+        <article class="card"><span class="tag">Automation</span><h3>CI и документация</h3><p>Workflow, шаблоны Issues, Dependabot, политика безопасности и Wiki.</p><span class="card-index">03</span></article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <p class="section-number">03 / НАВЫКИ</p>
+      <div class="skill-list"><span>C#</span><span>.NET</span><span>Git</span><span>GitHub</span><span>HTML</span><span>CSS</span><span>CI/CD</span></div>
+    </section>
+  </main>
+
+  <footer><p>Учебный проект · Лабораторная работа № 5</p><p>© <span id="year"></span> sashacracer</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

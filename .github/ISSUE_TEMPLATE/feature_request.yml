@@ -1,0 +1,18 @@
+name: Предложение функции
+description: Предложить улучшение портфолио
+title: "[FEATURE] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какая задача решается?
+      description: Опишите потребность или проблему.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение
+    validations:
+      required: true
