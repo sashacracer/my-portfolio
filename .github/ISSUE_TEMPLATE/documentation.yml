@@ -1,0 +1,19 @@
+name: Документация
+description: Запросить дополнение или исправление документации
+title: "[DOCS] "
+labels: [documentation]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Страница или раздел
+      description: Укажите файл или URL документации.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Что нужно изменить
+      description: Опишите отсутствующую или неточную информацию.
+    validations:
+      required: true
